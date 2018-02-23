@@ -11,18 +11,19 @@ The objective of the project is to **predict whether a person makes over 50K a y
 
  * Income dataset is available at UCI machine learning website: http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
 
+* Data dictionary is available at: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.names
 
 # **Data dictionary**
-* Data dictionary is available at: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.names
+
 
 Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))
 
-Listing of attributes:
+##### *Listing of attributes*
 
 
 **Target**
 * Predclass: >50K, <=50K.
-
+ * Categorical, income Level is either higher or lower than $50K
 
 **Categorical Attributes**
 
